@@ -1,0 +1,44 @@
+body {
+    background-color: #FFEBF0;
+    font-family: 'Cookie', cursive;
+    text-align: center;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #FF85A2;
+  }
+  
+  .timer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .time-section {
+    margin: 0 10px;
+  }
+  
+  #days,
+  #hours,
+  #minutes,
+  #seconds {
+    display: block;
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF85A2;
+    background-color: #FFF0F3;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .time-label {
+    font-size: 18px;
+    margin-top: 5px;
+    color: #FF85A2;
+  }
+  
